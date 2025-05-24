@@ -21,7 +21,9 @@
         <tbody>
           {#each data.sources as source}
             <tr>
-              <td>{#if source.count < 2}{source.id}{/if}</td>
+              <td
+                >{#if source.count < 2}{source.id}{/if}</td
+              >
               <td>{source.name}</td>
               <td>{source.count}</td>
               <td>&pound;{source.credit_amount}</td>
@@ -33,4 +35,3 @@
     </div>
   </div>
 </div>
-

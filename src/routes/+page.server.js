@@ -1,5 +1,5 @@
 import moment from 'moment';
-import Database from "$lib/server/database";
+import Database from '$lib/server/database';
 
 /** @type {import('./$types').PageServerLoad} */
 export async function load({ fetch }) {

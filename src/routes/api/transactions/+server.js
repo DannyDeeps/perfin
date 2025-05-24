@@ -14,8 +14,14 @@ export async function GET() {
   });
 
   const totals = {
-    debit_amount: transactions.reduce((total, transaction) => total + transaction['debit_amount'], 0),
-    credit_amount: transactions.reduce((total, transaction) => total + transaction['credit_amount'], 0)
+    debit_amount: transactions.reduce(
+      (total, transaction) => total + transaction['debit_amount'],
+      0
+    ),
+    credit_amount: transactions.reduce(
+      (total, transaction) => total + transaction['credit_amount'],
+      0
+    )
   };
 
   return json({
