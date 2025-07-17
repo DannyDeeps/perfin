@@ -1,0 +1,39 @@
+@import "tailwindcss" source(none);
+@source "../public/css/*.css";
+@source "../templates/**/*.phtml";
+@plugin "daisyui";
+@plugin "daisyui/theme" {
+  name: "dark";
+  default: true;
+  prefersdark: true;
+  color-scheme: "dark";
+  --color-base-100: oklch(20% 0 0);
+  --color-base-200: oklch(26% 0 0);
+  --color-base-300: oklch(37% 0 0);
+  --color-base-content: oklch(97% 0 0);
+  --color-primary: oklch(89% 0.196 126.665);
+  --color-primary-content: oklch(27% 0.006 286.033);
+  --color-secondary: oklch(60% 0.25 292.717);
+  --color-secondary-content: oklch(29% 0.149 302.717);
+  --color-accent: oklch(76% 0.233 130.85);
+  --color-accent-content: oklch(45% 0.124 130.933);
+  --color-neutral: oklch(27% 0.006 286.033);
+  --color-neutral-content: oklch(64% 0.2 131.684);
+  --color-info: oklch(91% 0.08 205.041);
+  --color-info-content: oklch(39% 0.07 227.392);
+  --color-success: oklch(40% 0.101 131.063);
+  --color-success-content: oklch(64% 0.2 131.684);
+  --color-warning: oklch(79% 0.184 86.047);
+  --color-warning-content: oklch(42% 0.095 57.708);
+  --color-error: oklch(39% 0.141 25.723);
+  --color-error-content: oklch(80% 0.114 19.571);
+  --radius-selector: 0.25rem;
+  --radius-field: 2rem;
+  --radius-box: 0.5rem;
+  --size-selector: 0.25rem;
+  --size-field: 0.25rem;
+  --border: 2px;
+  --depth: 0;
+  --noise: 0;
+}
+

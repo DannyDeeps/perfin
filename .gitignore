@@ -1,0 +1,4 @@
+vendor/
+node_modules/
+db/perfin.db
+test/rest/data

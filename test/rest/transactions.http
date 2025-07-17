@@ -1,0 +1,29 @@
+GET http://perfin.local/api/transactions HTTP/1.1
+
+###
+
+GET http://perfin.local/api/transactions/upload HTTP/1.1
+
+###
+
+GET http://perfin.local/api/transaction/1 HTTP/1.1
+
+###
+
+GET http://perfin.local/api/transactions/sources HTTP/1.1
+
+###
+
+GET http://perfin.local/api/datapoints/balance HTTP/1.1
+
+###
+
+POST http://perfin.local/api/transactions/upload HTTP/1.1
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundary7MA4YWxkTrZu0gW
+
+------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="upload"; filename="transactions.csv"
+Content-Type: text/csv
+
+< ./data/21263260_20250827_0306.csv
+------WebKitFormBoundary7MA4YWxkTrZu0gW

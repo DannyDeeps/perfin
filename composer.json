@@ -1,0 +1,22 @@
+{
+  "name": "dannydeeps/perfin",
+  "description": "Personal finance application",
+  "autoload": {
+    "psr-4": {
+      "Perfin\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Danny Huggins",
+      "email": "dannyhuggins@proton.me"
+    }
+  ],
+  "require-dev": {
+    "kint-php/kint": "^6.0",
+    "phpunit/phpunit": "^12.2"
+  },
+  "require": {
+    "league/plates": "^3.6"
+  }
+}
