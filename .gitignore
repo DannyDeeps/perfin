@@ -1,4 +1,5 @@
 vendor/
 node_modules/
 db/perfin.db
+db/perfin2.db
 test/rest/data
